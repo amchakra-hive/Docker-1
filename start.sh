@@ -22,3 +22,5 @@ else
     echo -e "-------------------------------" >> $logfile
     echo -e "\nThe time of the last update:\nTime: $(date "+ %Y-%m-%d  %H:%M:%S")\n" >> $logfile
 fi
+
+service apache2 start
